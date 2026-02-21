@@ -2,9 +2,9 @@ import { useState, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
-  { src: "/images/hero-1.jpg", alt: "School campus" },
-  { src: "/images/hero-2.jpg", alt: "Classroom learning" },
-  { src: "/images/hero-3.jpg", alt: "Graduation ceremony" },
+  { src: `${import.meta.env.BASE_URL}images/hero-1.jpg`, alt: "School campus" },
+  { src: `${import.meta.env.BASE_URL}images/hero-2.jpg`, alt: "Classroom learning" },
+  { src: `${import.meta.env.BASE_URL}images/hero-3.jpg`, alt: "Graduation ceremony" },
 ];
 
 const HeroSection = () => {
