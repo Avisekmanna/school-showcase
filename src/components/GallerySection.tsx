@@ -2,12 +2,12 @@ import { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const galleryImages = [
-  { src: "/images/gallery/science-lab.jpg", alt: "Science Laboratory" },
-  { src: "/images/gallery/library.jpg", alt: "School Library" },
-  { src: "/images/gallery/sports.jpg", alt: "Sports Field" },
-  { src: "/images/gallery/art-class.jpg", alt: "Art Class" },
-  { src: "/images/gallery/computer-lab.jpg", alt: "Computer Lab" },
-  { src: "/images/gallery/assembly.jpg", alt: "School Assembly" },
+  { src: `${import.meta.env.BASE_URL}images/gallery/science-lab.jpg`, alt: "Science Laboratory" },
+  { src: `${import.meta.env.BASE_URL}images/gallery/library.jpg`, alt: "School Library" },
+  { src: `${import.meta.env.BASE_URL}images/gallery/sports.jpg`, alt: "Sports Field" },
+  { src: `${import.meta.env.BASE_URL}images/gallery/art-class.jpg`, alt: "Art Class" },
+  { src: `${import.meta.env.BASE_URL}images/gallery/computer-lab.jpg`, alt: "Computer Lab" },
+  { src: `${import.meta.env.BASE_URL}images/gallery/assembly.jpg`, alt: "School Assembly" },
 ];
 
 const GallerySection = () => {
