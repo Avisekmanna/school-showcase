@@ -12,7 +12,7 @@ const enquirySchema = z.object({
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "123 Education Lane, Knowledge City, KN 45678" },
   { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
-  { icon: Mail, label: "Email", value: "info@brightmindsacademy.edu" },
+  { icon: Mail, label: "Email", value: "info@stmotherteressa.edu" },
   { icon: Clock, label: "Office Hours", value: "Mon–Fri: 8:00 AM – 4:00 PM" },
 ];
 

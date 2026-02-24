@@ -32,7 +32,7 @@ const AboutSection = () => {
             About Our School
           </h2>
           <p className="mt-6 text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed">
-            BrightMinds Academy has been a beacon of educational excellence for over 25 years.
+            St. Mother Teressa International School has been a beacon of educational excellence for over 25 years.
             We combine rigorous academics with character development to shape tomorrow's leaders.
           </p>
         </div>

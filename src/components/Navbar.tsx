@@ -35,11 +35,18 @@ const Navbar = () => {
         <a
           href="#home"
           onClick={(e) => { e.preventDefault(); handleClick("#home"); }}
-          className="flex items-center font-serif text-2xl font-bold text-primary-foreground tracking-wide"
+          className="flex items-center gap-3"
+          aria-label="Go to home"
         >
-          <img src={`${import.meta.env.BASE_URL}images/school-logo.png`} alt="School logo" className="h-10 w-10 mr-3 object-contain" />
-          <span>
-            Bright<span className="text-secondary">Minds</span>
+          <img
+            src={`${import.meta.env.BASE_URL}images/school-logo.png`}
+            alt="School logo"
+            className="h-8 w-8 md:h-10 md:w-10 object-contain"
+          />
+          <span className="font-serif text-sm md:text-base font-semibold text-primary-foreground tracking-wide leading-tight">
+            <span className="hidden md:inline">St. Mother Teressa</span>
+            <span className="md:hidden">St. M. Teressa</span>
+            <span className="text-secondary"> International School</span>
           </span>
         </a>
 
