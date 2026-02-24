@@ -35,9 +35,12 @@ const Navbar = () => {
         <a
           href="#home"
           onClick={(e) => { e.preventDefault(); handleClick("#home"); }}
-          className="font-serif text-2xl font-bold text-primary-foreground tracking-wide"
+          className="flex items-center font-serif text-2xl font-bold text-primary-foreground tracking-wide"
         >
-          Bright<span className="text-secondary">Minds</span> Academy
+          <img src={`${import.meta.env.BASE_URL}images/school-logo.png`} alt="School logo" className="h-10 w-10 mr-3 object-contain" />
+          <span>
+            Bright<span className="text-secondary">Minds</span>
+          </span>
         </a>
 
         {/* Desktop */}
